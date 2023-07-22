@@ -1,10 +1,22 @@
 import './style.css'
 
+const screen = document.querySelector ('.screen')
+
+
+
 const toucheUn = document.querySelector('.une')
-toucheUn.addEventListener('click',()=> console.log('1')) 
+toucheUn.addEventListener('click',ftoucheUn) 
+
+function ftoucheUn() {
+    screen.textContent = 1;
+    }
 
 const toucheDeux = document.querySelector('.deux')
-toucheDeux.addEventListener('click',()=> console.log('2')) 
+toucheDeux.addEventListener('click',ftoucheDeux) 
+
+function ftoucheDeux() {
+    screen.textContent = 2;
+    }
 
 const toucheTrois = document.querySelector('.trois')
 toucheTrois.addEventListener('click',()=> console.log('3')) 
