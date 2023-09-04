@@ -47,7 +47,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 100%);
   grid-gap:3px;
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0);
   justify-content: center;
   
 }
